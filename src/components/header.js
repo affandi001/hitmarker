@@ -36,7 +36,14 @@ export default function Header() {
                                 <div class="px-6 h-full text-gray-800">
                                     <div className=' '>
                                         <div className='text-center text-4xl font-semibold'>
-                                            <h1>Create Account</h1>
+                                            <h1>Create Account
+
+
+
+
+
+                                                
+                                            </h1>
                                         </div>
                                         <div className='absolute top-8 right-8 cursor-pointer'>
                                             <svg className='' onClick={() => setmodalIsOpen(false)} xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
