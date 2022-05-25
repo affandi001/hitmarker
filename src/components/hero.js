@@ -2,9 +2,9 @@ export default function Hero() {
     return (
 
         <>
-            <div className="container mx-auto ">
-                <div className="flex">
-                    <div className=" px-20  pt-40">
+            <div className="container mx-auto pb-20 ">
+                <div className="md:flex ">
+                    <div className=" px-12 md:px-20  pt-40 md:w-[50%]">
                         <h1 className="text-4xl text-white font-semibold leading-10">The home of gaming<br></br>
                             and esports jobs</h1>
 
@@ -14,7 +14,7 @@ export default function Hero() {
                             world. Find your dream career. Hire top talent. Make your mark.<br></br>
                         </p>
 
-                        <div className="flex space-x-12">
+                        <div className="flex space-x-4 md:space-x-12">
                             <div className="pt-12">
                                 <button class="bg-orange-600 text-white text-sm  px-8 py-2 hover:bg-orange-400  border border-orange-600 rounded-md font-medium cursor-pointer">View Jobs</button>
                             </div>
@@ -34,7 +34,7 @@ export default function Hero() {
                             </div>
                         </div>
                     </div>
-                    <div className=" pt-20">
+                    <div className="md:pt-40 pt-16  lg:pt-20 md:w-[50%]">
                         <img src="./assets/hero.png" />
                     </div>
 

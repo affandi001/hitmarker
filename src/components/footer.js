@@ -2,29 +2,29 @@ export default function Footer() {
     return (
 
         <>
-            <div className="container mx-auto pl-20 mt-8 pb-24">
-                <div className="flex ">
-                    <div className="">
+            <div className="container mx-auto pl-20 mt-8 pb-24  ">
+                <div className=" grid grid-cols-2  lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3    md:border-b-2  pb-20 ">
+                    <div className="cursor-pointer">
                         <img src="./assets/hitmarker 2.png" />
                         <p className="text-[11px] pt-8 text-[#2E2E46]">Open an account in minutes, get full<br></br> Control for much longer. </p>
                     </div>
-                    <div className=" w-[20%] px-12">
-                        <h1 className="text-xl text-[#2E2E46] font-semibold">Company</h1>
-                        <h1 className="pt-8 text-[#222831]">About</h1>
-                        <h1 className="pt-2  text-[#222831]">Careers</h1>
-                        <h1 className="pt-2 text-[#222831]">Mobile</h1>
+                    <div className="  ">
+                        <h1 className="text-xl text-[#2E2E46] font-semibold cursor-pointer">Company</h1>
+                        <h1 className="pt-8 text-[#222831] cursor-pointer">About</h1>
+                        <h1 className="pt-2  text-[#222831] cursor-pointer">Careers</h1>
+                        <h1 className="pt-2 text-[#222831] cursor-pointer">Mobile</h1>
                     </div>
 
 
-                    <div className=" w-[20%]">
-                        <h1 className="text-xl text-[#2E2E46] font-semibold">Contact</h1>
-                        <h1 className="pt-8 text-[#222831]">Help/FAQ</h1>
-                        <h1 className="pt-2 text-[#222831]">Press</h1>
-                        <h1 className="pt-2 text-[#222831]">Affiliates</h1>
+                    <div className=" sm:pt-0 pt-12 ">
+                        <h1 className="text-xl text-[#2E2E46] font-semibold cursor-pointer">Contact</h1>
+                        <h1 className="pt-8 text-[#222831] cursor-pointer">Help/FAQ</h1>
+                        <h1 className="pt-2 text-[#222831] cursor-pointer">Press</h1>
+                        <h1 className="pt-2 text-[#222831] cursor-pointer">Affiliates</h1>
                     </div>
 
 
-                    <div className="w-[20%]">
+                    <div className="  cursor-pointer md:pt-0 pt-12">
                         <h1 className="text-xl text-[#2E2E46] font-semibold">More</h1>
                         <h1 className="pt-8 text-[#222831]">Airline fees</h1>
                         <h1 className="pt-2 text-[#222831]">Airlines</h1>
@@ -32,10 +32,10 @@ export default function Footer() {
                     </div>
 
 
-                    <div className="w-[20%] ">
-                        <h1 className="text-xl">Discover Our App</h1>
-                        <div className="flex gap-x-2 mt-4">
-                            <div className="flex px-2 border-2 border-[#2E2E46] rounded-2xl bg-[#2E2E46] ">
+                    <div className="  cursor-pointer lg:pt-0 pt-12">
+                        <h1 className="text-xl sm:px-0 px-4">Discover Our App</h1>
+                        <div className="flex gap-x-2 mt-4 ml-4 ">
+                            <div className="flex px-2 border-2 border-[#2E2E46] rounded-2xl bg-[#2E2E46]  py-1  ">
                                 <div className="">
                                     <img src="./assets/Group.png" />
                                 </div>
@@ -46,7 +46,7 @@ export default function Footer() {
                             </div>
 
 
-                            <div className="flex px-2 border-2 border-[#2E2E46] rounded-2xl bg-[#2E2E46] ">
+                            <div className="flex border-2 border-[#2E2E46] rounded-2xl bg-[#2E2E46] px-2 py-1 ">
                                 <div className="">
                                     <img src="./assets/Group.png" />
                                 </div>
@@ -57,7 +57,7 @@ export default function Footer() {
                             </div>
                         </div>
 
-                        <div className="flex gap-x-4  pt-8">
+                        <div className="flex gap-x-4  pt-8 px-8">
                             <div>
                                 <svg
                                     class="w-9 h-9 text-orange-600 hover:fill-current"
@@ -82,7 +82,7 @@ export default function Footer() {
                             </div>
 
 
-                            <div>
+                            <div className="">
                                 <svg
                                     class="w-9 h-9  text-orange-600 hover:fill-current"
                                     xmlns="http://www.w3.org/2000/svg"
@@ -98,7 +98,9 @@ export default function Footer() {
                     </div>
                 </div>
 
-
+                <div className="text-center pt-8">
+                    <h1>All rights reserved Hitmarker </h1>
+                </div>
             </div>
 
 

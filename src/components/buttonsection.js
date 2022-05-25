@@ -2,9 +2,9 @@ export default function Button() {
     return (
 
         <>
-            <div className="container mx-auto pl-24 pr-16 pt-12 ">
+            <div className="container mx-auto md:pl-24 md:pr-16 pt-12 ">
                 <div className=" bg-[#FF6810] border-2-white  py-4 px-2 rounded-lg shadow-xl hover:bg-orange-600 text-white">
-                    <div className="flex justify-between">
+                    <div className="md:flex md:justify-between">
                         <div className="">
                             <h1 className="px-4 pt-2 text-xl font-semibold">Promote Your job</h1>
 

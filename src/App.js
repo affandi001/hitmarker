@@ -1,3 +1,6 @@
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 import './App.css';
 import Button from './components/buttonsection';
 import Footer from './components/footer';
@@ -6,6 +9,7 @@ import Header from './components/header';
 import Hero from './components/hero';
 import Section1 from './components/section1';
 import Section2 from './components/section2';
+import Slider from './components/slider';
 
 
 
@@ -21,6 +25,7 @@ export default function App() {
       <Section2 />
       <Grid />
       <Button />
+      <Slider />
       <Footer />
 
 
